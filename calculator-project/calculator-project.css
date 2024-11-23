@@ -1,0 +1,39 @@
+.body{
+    box-sizing: border-box;
+}
+.calculator-display{
+    border: 1px solid black;
+    margin: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.calculator-numberButtons {
+    display: grid; 
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    margin-top: 5px;
+
+}
+.calculator-operationsButtons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.calculator-eqal, .calculator-clear{
+    display: flex; 
+    flex-direction: row-reverse;
+    margin-left: 40px;
+}
+
+
+button {
+    width: 50px;
+    height: 40px;
+    margin: 2px;
+}
